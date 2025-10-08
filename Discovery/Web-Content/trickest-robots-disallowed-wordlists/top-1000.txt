@@ -286,7 +286,6 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 .co.uk
 .com
 .css
-.css
 .diff$
 .element
 .emailjson
@@ -300,7 +299,6 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 .html?cachemode=refresh$
 .jpg
 .jpge
-.js
 .js
 .json
 .jsx
@@ -350,6 +348,7 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 .well-known/resource-that-should-not-exist-whose-status-code-should-not-be-200
 .well-known/security.txt
 .well-known/shopify/monorail
+.well-known/tdmrep.json
 .woff
 .woff2
 .xml
@@ -1531,6 +1530,7 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /?wvideo=
 /?xml=
 /?z=1
+/@async
 /@type$
 /Ajax
 /Ajax/MediaData
@@ -1595,6 +1595,7 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /a-com-no-follow-no-index/
 /abm
 /about
+/about
 /about-us/contact/contact-spotify-account
 /about-us/contact/contact-spotify-password
 /abtest
@@ -1603,6 +1604,7 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /account-information
 /account/cls
 /acq
+/action
 /actions_panel
 /activity
 /ad/ad-cookie
@@ -1632,6 +1634,10 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /albert-heijn-premium
 /album/*/*?i=
 /alert
+/all_comments
+/all_posts
+/all_posts$
+/all_questions
 /allunits
 /alphaaz
 /alphaza
@@ -1645,6 +1651,9 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /anal-
 /analytics
 /annotate
+/answer
+/answer_comments
+/answers
 /answers/*?*filterby=
 /answers/*?*orderby=
 /answers/*?*pagesize=
@@ -1739,6 +1748,7 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /blog/*/teammembers
 /blog/*/testing
 /blogs
+/blogs$
 /blogs/
 /blogs/*%2B
 /blogs/*%2b
@@ -2370,6 +2380,7 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /lightreg/index.html
 /lijstjes
 /likes
+/link
 /list
 /list/tips$
 /list/todos$
@@ -2384,6 +2395,7 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /live-stream
 /load.js
 /loft-apartments_att
+/log
 /log$
 /logSend$
 /login
@@ -2406,6 +2418,7 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /mail/*
 /makecorsrequest
 /makeid$
+/manage
 /marketing/author/*&
 /marketing/author/*?
 /marketing/help
@@ -2418,10 +2431,12 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /member/inbox
 /member/settings
 /members
+/mentions
 /menu
 /merge_requests/*.diff
 /merge_requests/*.patch
 /merge_requests/*/diffs
+/merged
 /message
 /message-board.html
 /messages
@@ -2441,6 +2456,8 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /misc/*.js?
 /misc/*.png
 /mmpub
+/mobile_collapsed
+/mobile_expanded_voter_list
 /modifier
 /modules
 /modules/*.css$
@@ -2527,6 +2544,7 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /oma
 /onboarding
 /opbuildpdf
+/open_questions
 /opensearch
 /opera/features
 /opinions
@@ -2603,6 +2621,8 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /popular/*/channel
 /portal
 /portfolio
+/posts
+/posts$
 /potmsearch/export
 /powershell/
 /pre-foreclosure
@@ -2651,6 +2671,7 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /pvid$
 /qc
 /query
+/questions
 /r
 /ra
 /ramavtal
@@ -2686,6 +2707,8 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /returns/*?*&ref=
 /returns/*?liteToken=
 /returns/*?ref=
+/reviews
+/reviews$
 /reviewselections
 /revisions
 /rewards-experience
@@ -2848,6 +2871,7 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /services/success-plans/accelerators/._filter.RG*.*
 /serviceselection
 /settings
+/share
 /ship-to-country
 /ship-to-country--
 /shop
@@ -3016,8 +3040,12 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /things-to-do
 /thirdpartyservice
 /tlp
+/top_questions
 /topfans
+/topic-bio
 /topic/*?
+/topic_bio
+/topics
 /topics/*?
 /topics_amp
 /townhome_att
@@ -3042,6 +3070,7 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 /u
 /u1_sch
 /ugc_photos_proxy
+/unanswered
 /undefined
 /undefined$
 /unitrun
@@ -3302,7 +3331,6 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 ?*scrape
 ?*scriptPath
 ?*searchResultPosition=
-?*shareToken=
 ?*showonlyads=
 ?*signUpRequest=
 ?*site_view=
@@ -3366,6 +3394,7 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 ?act=
 ?action=
 ?action=callus
+?ad_webview=
 ?adcode=
 ?adid=
 ?af=
@@ -3880,6 +3909,7 @@ $rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService
 ?zz_*=
 @@castle.cms.querylisting*?
 @@search?
+@async
 @me
 @me$
 AI
@@ -5150,7 +5180,6 @@ VKRegistration
 VRACSearch
 VRAffiliateClickoff
 VRDetailAjax
-VRInquirySent
 VRReviewManagement
 VRUserReview
 VacationRentalIdeas
@@ -5278,6 +5307,8 @@ _/site_info_blank
 _/tfhub
 _/toolkit_blank
 _/transparencyreport
+_POST
+_POST$
 __
 __+hsfp=
 __as__
@@ -5491,6 +5522,7 @@ about.html
 about/*/getting-started
 about/*/mobile
 about/*/update
+about/adrm/data-linkage
 about/ask/
 about/ask?*
 about/careers/applications-a/jobs/results
@@ -5637,6 +5669,7 @@ action/journalInformation*editorialBoard
 action/journalInformation*journalMetrics
 action/journalInformation*societyInformation
 action/showAltPdf
+action/showAxaArticles?journalCode=
 action/showBmHtml
 action/showBmPdf
 action/showBook
@@ -5913,7 +5946,6 @@ ajax/rentals/ClaimedRentalProperties.htm?actionType=claims
 ajax/seoRequest
 ajax/skill-bundle.php
 ajax/user
-ajax?
 ajax_collection_share.php
 ajax_comments
 ajaxcart
@@ -6013,6 +6045,7 @@ annotated
 announcements.cms
 anon-ftp
 anon/AdPreview$
+anonymous
 answers
 answers$
 ant-man
@@ -7661,6 +7694,7 @@ blog/top-10-things-we-shipped-this-year/$
 blog/topic
 blog/trackback
 blog/transforming-design-education-for-japans-k-12-students/$
+blog/turn-your-chatgpt-brainstorms-into-figjam-diagrams/$
 blog/typography/$
 blog/ui-refresh/$
 blog/ui-ux/$
@@ -8660,6 +8694,7 @@ ch_fr/Download
 ch_it/Download
 challenge
 challenges
+challenges$
 change-displayed-metadata
 change-email
 change-password
@@ -11881,6 +11916,7 @@ de-de/resource-library/linkedin-size-guide/$
 de-de/resource-library/mindmap-anleitung/$
 de-de/resource-library/pinterest-image-sizes/$
 de-de/resource-library/pitch-deck-beispiele/$
+de-de/resource-library/portfolio-website-beispiele/$
 de-de/resource-library/share-file/$
 de-de/resource-library/soundcloud-banner-size/$
 de-de/resource-library/sprint-retrospective-meeting/$
@@ -11888,6 +11924,7 @@ de-de/resource-library/strategic-planning-process/$
 de-de/resource-library/strategic-vs-tactical-planning/$
 de-de/resource-library/twitch-banner-size/$
 de-de/resource-library/twitter-banner-size/$
+de-de/resource-library/ui-designprinzipien/$
 de-de/resource-library/unterschied-zwischen-ui-und-ux/$
 de-de/resource-library/was-ist-ein-anwendungsfall/$
 de-de/resource-library/was-ist-wireframing/$
@@ -12583,6 +12620,7 @@ doi/book
 doi/citedby
 doi/cover-img
 doi/epdf
+doi/epub
 doi/metrics
 doi/mlt
 doi/reader
@@ -12864,6 +12902,7 @@ email=
 email?
 email_actions
 email_collect
+email_optout
 email_unsubscribe
 email_verification_error
 emailability
@@ -14044,6 +14083,7 @@ es-es/resource-library/$
 es-es/resource-library/diagramas-de-alineacion-explicados/$
 es-es/resource-library/diferencia-entre-ui-y-ux/$
 es-es/resource-library/ejemplos-de-presentaciones/$
+es-es/resource-library/ejemplos-sitios-portfolio/$
 es-es/resource-library/facebook-size-guide/$
 es-es/resource-library/google-display-ad-sizes/$
 es-es/resource-library/instagram-photo-size/$
@@ -14051,6 +14091,7 @@ es-es/resource-library/linkedin-size-guide/$
 es-es/resource-library/mejores-fuentes-para-logotipos/$
 es-es/resource-library/mejores-fuentes-para-sitios-web/$
 es-es/resource-library/pinterest-image-sizes/$
+es-es/resource-library/principios-diseno-ui/$
 es-es/resource-library/que-es-diseno-de-reticulas/$
 es-es/resource-library/que-es-un-caso-de-uso/$
 es-es/resource-library/soundcloud-banner-size/$
@@ -14215,6 +14256,7 @@ es-la/resource-library/como-hacer-mapa-mental/$
 es-la/resource-library/diagramas-de-alineacion-explicados/$
 es-la/resource-library/diferencia-entre-ui-y-ux/$
 es-la/resource-library/ejemplos-de-presentaciones/$
+es-la/resource-library/ejemplos-sitios-portafolio/$
 es-la/resource-library/facebook-size-guide/$
 es-la/resource-library/google-display-ad-sizes/$
 es-la/resource-library/instagram-photo-size/$
@@ -14222,6 +14264,7 @@ es-la/resource-library/linkedin-size-guide/$
 es-la/resource-library/mejores-fuentes-para-logotipos/$
 es-la/resource-library/mejores-fuentes-para-sitios-web/$
 es-la/resource-library/pinterest-image-sizes/$
+es-la/resource-library/principios-diseno-ui/$
 es-la/resource-library/que-es-un-caso-de-uso/$
 es-la/resource-library/que-es-wireframing/$
 es-la/resource-library/soundcloud-banner-size/$
@@ -14672,6 +14715,7 @@ event/*/shoutbox
 event/*/shoutbox?
 eventDisplay
 events
+events-and-webinars/$
 events/
 events/$
 events/applesummit
@@ -14814,10 +14858,6 @@ fashion/lookbook/38917
 fashion/search/models
 fast-five
 fast-furious
-fastajax
-fastajax/order
-fastajax/order/tax
-fastajax/order/tax/validatevat
 fastanswers
 fatalerror.html
 faves-i_love_u_get_away_from_me
@@ -14882,8 +14922,8 @@ feedback-service
 feedback/
 feedback/user_study
 feeds
-feeds.thetimes.com/puzzles
-feeds.thetimes.com/timescrossword
+feeds.thetimes.co.uk/puzzles
+feeds.thetimes.co.uk/timescrossword
 feeds/
 feeds/TechNet/fr-fr/screenshot/screenshot%20surface.jpg
 feeds/rss
@@ -16846,7 +16886,6 @@ forums/profile
 forums/topic-tag/reader
 forward
 foryou
-fos/icn/
 fotos/es/*+
 foundation/contact
 fourinthemorning
@@ -17324,6 +17363,7 @@ fr-fr/resource-library/daily-stand-up/$
 fr-fr/resource-library/design-lessons/$
 fr-fr/resource-library/difference-entre-ui-et-ux/$
 fr-fr/resource-library/exemples-de-pitch-deck/$
+fr-fr/resource-library/exemples-sites-portfolio/$
 fr-fr/resource-library/facebook-size-guide/$
 fr-fr/resource-library/figjam-tools-for-the-classroom/$
 fr-fr/resource-library/google-display-ad-sizes/$
@@ -17336,6 +17376,7 @@ fr-fr/resource-library/linkedin-size-guide/$
 fr-fr/resource-library/meilleures-polices-pour-logos/$
 fr-fr/resource-library/meilleures-polices-pour-sites-web/$
 fr-fr/resource-library/pinterest-image-sizes/$
+fr-fr/resource-library/principes-design-ui/$
 fr-fr/resource-library/qu-est-ce-qu-un-cas-d-utilisation/$
 fr-fr/resource-library/quest-ce-que-le-wireframing/$
 fr-fr/resource-library/share-file/$
@@ -18180,7 +18221,6 @@ graduation
 graduation/?s=
 grafico
 grafico-del-dia
-graph-api
 graphics
 graphique-du-jour
 graphql
@@ -18230,7 +18270,7 @@ gsx
 gt/Download
 gt/education/australia-by-subject
 gt/education/australia-subject
-gtc/gtc-chatbot/*
+gtc/gtc-chatbot/*http://nymag.com/robots.txt
 gtp/stir
 gu-IN/forums
 gu-IN/kb/*/discuss
@@ -18481,6 +18521,7 @@ home-equity
 home-improvement-dueling-digs
 home.isoDocumentsDownload.do?
 home/dashboard
+home/global_feed
 home/search.html
 home/search?q=
 home?
@@ -18637,8 +18678,8 @@ http://smithsonianmag.com/robots.txt
 http://static.wixstatic.com/robots.txt
 http://techradar.com/robots.txt
 http://teenage.engineering/robots.txt
-http://theverge.com/robots.txt
 http://tracks.arte.tv/robots.txt
+http://use.fontawesome.com/robots.txt
 http://weebly.com/robots.txt
 https://player.cnevids.com
 https:/www.alibaba.com
@@ -19216,7 +19257,6 @@ intent
 interactive
 interactive*http://fda.gov/robots.txt
 interactive/reading-preference
-interactives
 interactives/sponsor-story
 intercept
 internal
@@ -19381,8 +19421,10 @@ it-it/prototipazione/$
 it-it/resource-library/$
 it-it/resource-library/che-cos-e-un-caso-d-uso/$
 it-it/resource-library/esempi-di-pitch-deck/$
+it-it/resource-library/esempi-siti-portfolio/$
 it-it/resource-library/migliori-font-per-loghi/$
 it-it/resource-library/migliori-font-per-siti-web/$
+it-it/resource-library/principi-design-ui/$
 it-it/ruota-colore/$
 it-it/search
 it-it/searchresults
@@ -19882,10 +19924,12 @@ ja-jp/resource-library/instagram-photo-size/$
 ja-jp/resource-library/linkedin-size-guide/$
 ja-jp/resource-library/pinterest-image-sizes/$
 ja-jp/resource-library/pitch-deck-examples/$
+ja-jp/resource-library/portfolio-website-examples/$
 ja-jp/resource-library/share-file/$
 ja-jp/resource-library/soundcloud-banner-size/$
 ja-jp/resource-library/twitch-banner-size/$
 ja-jp/resource-library/twitter-banner-size/$
+ja-jp/resource-library/ui-design-principles/$
 ja-jp/resource-library/what-is-a-use-case/$
 ja-jp/resource-library/what-is-wireframing/$
 ja-jp/resource-library/youtube-banner-size/$
@@ -20444,9 +20488,11 @@ ko-kr/resource-library/instagram-photo-size/$
 ko-kr/resource-library/linkedin-size-guide/$
 ko-kr/resource-library/pinterest-image-sizes/$
 ko-kr/resource-library/pitch-deck-examples/$
+ko-kr/resource-library/portfolio-website-examples/$
 ko-kr/resource-library/soundcloud-banner-size/$
 ko-kr/resource-library/twitch-banner-size/$
 ko-kr/resource-library/twitter-banner-size/$
+ko-kr/resource-library/ui-design-principles/$
 ko-kr/resource-library/what-is-a-use-case/$
 ko-kr/resource-library/what-is-wireframing/$
 ko-kr/resource-library/youtube-banner-size/$
@@ -21001,7 +21047,7 @@ login.php*&next=
 login.php/?next=
 login.php?next=
 login.php?return_to=
-login.thetimes.com/user/logout
+login.thetimes.co.uk/user/logout
 login/
 login/$
 login/*&next=
@@ -22248,6 +22294,8 @@ nl-nl/reports/ai-2025/$
 nl-nl/resource-library/$
 nl-nl/resource-library/beste-lettertypen-voor-logos/$
 nl-nl/resource-library/beste-lettertypen-voor-websites/$
+nl-nl/resource-library/portfolio-website-voorbeelden/$
+nl-nl/resource-library/ui-ontwerpprincipes/$
 nl-nl/resource-library/voorbeelden-van-presentaties/$
 nl-nl/resource-library/wat-is-een-use-case/$
 nl-nl/search
@@ -23181,6 +23229,7 @@ password
 password-changed-email
 password/reset
 password_expired
+past-six-days
 patent
 patent-search/frontend
 patents
@@ -23440,6 +23489,8 @@ pl-pl/resource-library/czym-jest-przypadek-uzycia/$
 pl-pl/resource-library/najlepsze-czcionki-do-logo/$
 pl-pl/resource-library/najlepsze-czcionki-do-stron-internetowych/$
 pl-pl/resource-library/przyklady-prezentacji-oferty/$
+pl-pl/resource-library/witryny-portfolio-przyklady/$
+pl-pl/resource-library/zasady-projektowania-ui/$
 pl-pl/rozwiazania/od-projektu-do-kodu/$
 pl-pl/rozwoj-produktu/$
 pl-pl/search
@@ -23683,7 +23734,6 @@ popular?
 popup
 popup?
 popup_security.jsp
-popups
 popups/mediaplayer
 popups/popup_gallery
 portal
@@ -23764,6 +23814,7 @@ presentation
 presentation-maker/$
 preserv/extranet
 press
+press$
 press-coverage/?offset=
 press-release
 press-this.php
@@ -23987,6 +24038,7 @@ profile
 profile/
 profile/*/Advice
 profile/*/Reviews-Written
+profile/*/Rss
 profile/*/hobby$
 profile/*/photos
 profile/account
@@ -24436,6 +24488,7 @@ pt-br/resource-library/$
 pt-br/resource-library/como-fazer-mapa-mental/$
 pt-br/resource-library/diferenca-entre-ui-e-ux/$
 pt-br/resource-library/exemplos-de-apresentacoes/$
+pt-br/resource-library/exemplos-sites-portfolio/$
 pt-br/resource-library/facebook-size-guide/$
 pt-br/resource-library/google-display-ad-sizes/$
 pt-br/resource-library/graficos-de-alinhamento-explicados/$
@@ -24446,6 +24499,7 @@ pt-br/resource-library/melhores-fontes-para-sites/$
 pt-br/resource-library/o-que-e-um-caso-de-uso/$
 pt-br/resource-library/o-que-e-wireframing/$
 pt-br/resource-library/pinterest-image-sizes/$
+pt-br/resource-library/principios-design-ui/$
 pt-br/resource-library/soundcloud-banner-size/$
 pt-br/resource-library/twitch-banner-size/$
 pt-br/resource-library/twitter-banner-size/$
@@ -24651,6 +24705,14 @@ python/docs/reference/*/latest
 python/docs/reference/*/latest$
 python/docs/reference/help
 q
+q/*/admin_log
+q/*/earnings
+q/*/quality
+q/*/queue
+q/*/settings
+q/*/stats
+q/*/submissions
+q/*/suggestions
 q/profile/*/answers
 q/profile/*/articles
 q/profile/*/org_answers
@@ -24675,6 +24737,7 @@ q=
 qa
 qa/education/australia-by-subject
 qa/education/australia-subject
+qemail
 qi
 qnasearch?
 qr
@@ -24701,6 +24764,7 @@ qui-sommes-nous
 quick-search
 quickadd.aspx
 quickcast
+quickfacts
 quickstart
 quickstart/promo
 quickstart/promo/confirmation
@@ -26147,7 +26211,6 @@ search/audio
 search/audio?k=
 search/autocomplete
 search/autosuggest
-search/browse-by-day
 search/browse/HDPTree,*Border.*debug*DebugBar.*InspectorButton.link.sdirect
 search/buyeroffers/*.html
 search/buyeroffers/*/*.html
@@ -26668,7 +26731,7 @@ sites/default/files/*.doc
 sites/default/files/*.docx
 sites/default/files/*.pdf
 sites/default/files/*.swf
-sites/default/files/archive
+sites/default/files/archive/
 sites/default/files/commandcenter/commandcenter-as-a-service-helpdoc.pdf
 sites/default/files/creator/archive/
 sites/default/files/crm/cohort-analysis.pdf
@@ -28601,6 +28664,7 @@ topGallery
 topic
 topic*?post=
 topic/*(
+topic/*/Rss
 topic/*/ampphoto
 topic/*/photos
 topic/*/smart
@@ -29797,6 +29861,8 @@ vn/education/australia-by-subject
 vn/education/australia-subject
 vod
 voices/
+vorlage-a
+vorlage-b
 vote-review
 votre-europarl/
 voucher
@@ -29959,6 +30025,7 @@ webinars/winning-together-with-razorpay/$
 webintent
 webmaster
 webmd_static_vue/
+webnode2
 webops-perf/free/files
 webpoc/ruleCenter
 webscr
@@ -30036,6 +30103,8 @@ widget_chunks
 widgets
 widgets$
 widgets-admin
+widgets/content_iframe
+widgets/content_js
 widgets/trk
 widgets=
 widnows/

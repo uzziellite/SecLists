@@ -9589,6 +9589,9 @@ app/frontend/apps/desktop/components/ResizeLine/ResizeLine.vue
 app/frontend/apps/desktop/components/Ticket/TicketListPopoverWithTrigger.vue
 app/frontend/apps/desktop/components/Ticket/TicketListPopoverWithTrigger/TicketListPopover.vue
 app/frontend/apps/desktop/components/Ticket/TicketListPopoverWithTrigger/skeleton/TicketListPopoverSkeleton.vue
+app/frontend/apps/desktop/components/Ticket/TicketPopoverWithTrigger/graphql/queries/ticketInfoForPopover.mocks.ts
+app/frontend/apps/desktop/components/Ticket/TicketPopoverWithTrigger/graphql/queries/ticketInfoForPopover.graphql
+app/frontend/apps/desktop/components/Ticket/TicketPopoverWithTrigger/graphql/queries/ticketInfoForPopover.api.ts
 app/frontend/apps/desktop/components/Ticket/TicketPopoverWithTrigger/TicketPopover.vue
 app/frontend/apps/desktop/components/Ticket/TicketPopoverWithTrigger/skeleton/TicketPopoverSkeleton.vue
 app/frontend/apps/desktop/components/Ticket/__tests__/TicketListTable.spec.ts
@@ -9674,6 +9677,9 @@ app/frontend/apps/desktop/components/CommonObjectAttribute/CommonObjectAttribute
 app/frontend/apps/desktop/components/CommonInputCopyToClipboard/__tests__/CommonInputCopyToClipboard.spec.ts
 app/frontend/apps/desktop/components/CommonInputCopyToClipboard/CommonInputCopyToClipboard.vue
 app/frontend/apps/desktop/components/User/UserPopoverWithTrigger/UserPopover.vue
+app/frontend/apps/desktop/components/User/UserPopoverWithTrigger/graphql/queries/userInfoForPopover.api.ts
+app/frontend/apps/desktop/components/User/UserPopoverWithTrigger/graphql/queries/userInfoForPopover.graphql
+app/frontend/apps/desktop/components/User/UserPopoverWithTrigger/graphql/queries/userInfoForPopover.mocks.ts
 app/frontend/apps/desktop/components/User/UserPopoverWithTrigger/skeleton/UserPopoverSkeleton.vue
 app/frontend/apps/desktop/components/User/UserInfo.vue
 app/frontend/apps/desktop/components/User/UserListPopoverWithTrigger/UserListPopover.vue

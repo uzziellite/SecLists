@@ -33,6 +33,7 @@ templates/UmbracoExtension/Client/src/bundle.manifests.ts
 templates/UmbracoExtension/Client/src/api/core/serverSentEvents.gen.ts
 templates/UmbracoExtension/Client/src/api/core/params.gen.ts
 templates/UmbracoExtension/Client/src/api/core/types.gen.ts
+templates/UmbracoExtension/Client/src/api/core/queryKeySerializer.gen.ts
 templates/UmbracoExtension/Client/src/api/core/pathSerializer.gen.ts
 templates/UmbracoExtension/Client/src/api/core/auth.gen.ts
 templates/UmbracoExtension/Client/src/api/core/utils.gen.ts
@@ -621,10 +622,10 @@ tests/Umbraco.Tests.Common/Extensions/StringExtensions.cs
 tests/Umbraco.Tests.AcceptanceTest/console-errors.json
 tests/Umbraco.Tests.AcceptanceTest/postinstall.js
 tests/Umbraco.Tests.AcceptanceTest/config.js
-tests/Umbraco.Tests.AcceptanceTest/tests/DeliveryApi/appsettings.json
-tests/Umbraco.Tests.AcceptanceTest/tests/DeliveryApi/DeliveryApi.spec.ts
+tests/Umbraco.Tests.AcceptanceTest/tests/DeliveryApi/MediaDeliveryApi.spec.ts
 tests/Umbraco.Tests.AcceptanceTest/tests/DeliveryApi/AdditionalSetup/Program.cs
 tests/Umbraco.Tests.AcceptanceTest/tests/DeliveryApi/AdditionalSetup/appsettings.json
+tests/Umbraco.Tests.AcceptanceTest/tests/DeliveryApi/ContentDeliveryApi.spec.ts
 tests/Umbraco.Tests.AcceptanceTest/tests/DefaultConfig/Content/ContentWithMultipleMediaPicker.spec.ts
 tests/Umbraco.Tests.AcceptanceTest/tests/DefaultConfig/Content/PublishWithDescendants.spec.ts
 tests/Umbraco.Tests.AcceptanceTest/tests/DefaultConfig/Content/ContentWithMultiNodeTreePickerDataType.spec.ts
@@ -702,6 +703,7 @@ tests/Umbraco.Tests.AcceptanceTest/tests/DefaultConfig/Users/Permissions/User/Me
 tests/Umbraco.Tests.AcceptanceTest/tests/DefaultConfig/Users/Permissions/User/UICulture.spec.ts
 tests/Umbraco.Tests.AcceptanceTest/tests/DefaultConfig/Users/UserGroups.spec.ts
 tests/Umbraco.Tests.AcceptanceTest/tests/DefaultConfig/Users/UserGroupsDefaultConfiguration.spec.ts
+tests/Umbraco.Tests.AcceptanceTest/tests/DefaultConfig/Users/CurrentUserProfile.spec.ts
 tests/Umbraco.Tests.AcceptanceTest/tests/DefaultConfig/Users/User.spec.ts
 tests/Umbraco.Tests.AcceptanceTest/tests/DefaultConfig/Settings/Dashboard/HealthCheck.spec.ts
 tests/Umbraco.Tests.AcceptanceTest/tests/DefaultConfig/Settings/Dashboard/Welcome.spec.ts
@@ -797,6 +799,19 @@ tests/Umbraco.Tests.AcceptanceTest/tests/ExternalLogin/AzureADB2C/AdditionalSetu
 tests/Umbraco.Tests.AcceptanceTest/tests/ExternalLogin/AzureADB2C/AdditionalSetup/AzureB2CComposer.cs
 tests/Umbraco.Tests.AcceptanceTest/tests/ExternalLogin/AzureADB2C/AdditionalSetup/AzureB2CSettings.cs
 tests/Umbraco.Tests.AcceptanceTest/tests/ExternalLogin/AzureADB2C/AdditionalSetup/AzureB2COptions.cs
+tests/Umbraco.Tests.AcceptanceTest/tests/ExtensionRegistry/ReadOnlyGuardRules.spec.ts
+tests/Umbraco.Tests.AcceptanceTest/tests/ExtensionRegistry/CustomPropertyEditor.spec.ts
+tests/Umbraco.Tests.AcceptanceTest/tests/ExtensionRegistry/RetrieveAction.spec.ts
+tests/Umbraco.Tests.AcceptanceTest/tests/ExtensionRegistry/AdditionalSetup/App_Plugins/retrieve-action/umbraco-package.json
+tests/Umbraco.Tests.AcceptanceTest/tests/ExtensionRegistry/AdditionalSetup/App_Plugins/retrieve-action/retrieve-action.manifests.js
+tests/Umbraco.Tests.AcceptanceTest/tests/ExtensionRegistry/AdditionalSetup/App_Plugins/retrieve-action/retrieve-action.api.js
+tests/Umbraco.Tests.AcceptanceTest/tests/ExtensionRegistry/AdditionalSetup/App_Plugins/lock-action/umbraco-package.json
+tests/Umbraco.Tests.AcceptanceTest/tests/ExtensionRegistry/AdditionalSetup/App_Plugins/lock-action/lock-action.api.js
+tests/Umbraco.Tests.AcceptanceTest/tests/ExtensionRegistry/AdditionalSetup/App_Plugins/lock-action/lock-action.manifests.js
+tests/Umbraco.Tests.AcceptanceTest/tests/ExtensionRegistry/AdditionalSetup/App_Plugins/custom-property-editor/umbraco-package.json
+tests/Umbraco.Tests.AcceptanceTest/tests/ExtensionRegistry/AdditionalSetup/App_Plugins/custom-property-editor/dist/customtexteditor.js
+tests/Umbraco.Tests.AcceptanceTest/tests/ExtensionRegistry/AdditionalSetup/App_Plugins/custom-property-editor/dist/customtexteditor.js.map
+tests/Umbraco.Tests.AcceptanceTest/tests/ExtensionRegistry/AdditionalSetup/appsettings.json
 tests/Umbraco.Tests.AcceptanceTest/playwright.config.ts
 tests/Umbraco.Tests.AcceptanceTest/misc/Directory.Packages.props
 tests/Umbraco.Tests.AcceptanceTest/package-lock.json
@@ -1684,6 +1699,7 @@ src/Umbraco.Web.UI.Login/src/mocks/customViews/my-custom-view.js
 src/Umbraco.Web.UI.Login/src/api/core/serverSentEvents.gen.ts
 src/Umbraco.Web.UI.Login/src/api/core/params.gen.ts
 src/Umbraco.Web.UI.Login/src/api/core/types.gen.ts
+src/Umbraco.Web.UI.Login/src/api/core/queryKeySerializer.gen.ts
 src/Umbraco.Web.UI.Login/src/api/core/pathSerializer.gen.ts
 src/Umbraco.Web.UI.Login/src/api/core/auth.gen.ts
 src/Umbraco.Web.UI.Login/src/api/core/utils.gen.ts
@@ -4580,6 +4596,7 @@ src/Umbraco.Web.UI.Client/src/packages/ufm/filters/title-case.filter.ts
 src/Umbraco.Web.UI.Client/src/packages/ufm/filters/lowercase.filter.ts
 src/Umbraco.Web.UI.Client/src/packages/ufm/filters/manifests.ts
 src/Umbraco.Web.UI.Client/src/packages/ufm/filters/bytes.filter.ts
+src/Umbraco.Web.UI.Client/src/packages/ufm/filters/truncate.filter.test.ts
 src/Umbraco.Web.UI.Client/src/packages/ufm/filters/word-limit.filter.ts
 src/Umbraco.Web.UI.Client/src/packages/ufm/contexts/manifest.ts
 src/Umbraco.Web.UI.Client/src/packages/ufm/contexts/ufm.context.ts
@@ -7563,6 +7580,7 @@ src/Umbraco.Web.UI.Client/src/packages/core/components/ref-item/ref-item.element
 src/Umbraco.Web.UI.Client/src/packages/core/components/input-radio-button-list/input-radio-button-list.element.ts
 src/Umbraco.Web.UI.Client/src/packages/core/components/input-radio-button-list/index.ts
 src/Umbraco.Web.UI.Client/src/packages/core/components/input-radio-button-list/input-radio-button-list.stories.ts
+src/Umbraco.Web.UI.Client/src/packages/core/components/view-loader/view-loader.element.ts
 src/Umbraco.Web.UI.Client/src/packages/core/components/history/index.ts
 src/Umbraco.Web.UI.Client/src/packages/core/components/history/history-list.element.ts
 src/Umbraco.Web.UI.Client/src/packages/core/components/history/history-item.element.ts
@@ -8149,6 +8167,7 @@ src/Umbraco.Web.UI.Client/src/packages/core/temporary-file/temporary-file.server
 src/Umbraco.Web.UI.Client/src/packages/core/backend-api/core/serverSentEvents.gen.ts
 src/Umbraco.Web.UI.Client/src/packages/core/backend-api/core/params.gen.ts
 src/Umbraco.Web.UI.Client/src/packages/core/backend-api/core/types.gen.ts
+src/Umbraco.Web.UI.Client/src/packages/core/backend-api/core/queryKeySerializer.gen.ts
 src/Umbraco.Web.UI.Client/src/packages/core/backend-api/core/pathSerializer.gen.ts
 src/Umbraco.Web.UI.Client/src/packages/core/backend-api/core/auth.gen.ts
 src/Umbraco.Web.UI.Client/src/packages/core/backend-api/core/utils.gen.ts
